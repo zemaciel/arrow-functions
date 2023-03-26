@@ -35,3 +35,10 @@ saySomenthing('Hello There');
 
 
 // Returning Multiple Lines
+
+const returnMultiLines = () => (
+    `<p>
+    This is a multiline string!
+    </p>`
+)
+console.log(returnMultiLines());
